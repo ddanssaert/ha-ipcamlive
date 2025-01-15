@@ -1,0 +1,27 @@
+{
+  "state": {
+    "_": {
+      "idle": "Leerlauf",
+      "streaming": "Streaming"
+    }
+  },
+  "config": {
+    "error": {
+      "unknown": "Unerwarteter Fehler",
+      "alias_not_found": "Mit diesem Alias wurde keine Kamera gefunden",
+      "alias_already_exists": "Eine Kamera mit diesem Alias ist bereits vorhanden."
+    },
+    "step": {
+      "user": {
+        "description": "Geben Sie den IPCamLive-Alias ein, um eine Verbindung zur Kamera herzustellen.",
+        "data": {
+          "alias": "IPCamLive-Alias",
+          "name": "Name (leer lassen, um Alias zu verwenden)"
+        }
+      },
+      "confirm": {
+        "description": "Möchten Sie mit der Einrichtung beginnen?"
+      }
+    }
+  }
+}
